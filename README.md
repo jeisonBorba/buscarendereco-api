@@ -34,13 +34,19 @@ Para clonar a aplicação e rodar localmente é necessário instalar:
 
 Pela linha de comando:
 
-### Download do projeto
+### Baixar projeto
 ```bash
-# Clone o seguinte repositório
+# Clonar aplicação
 $ git clone https://github.com/jeisonBorba/buscarendereco-api.git && cd buscarendereco-api
 ```
 
-### Utilização do projeto
+### Utilizar segurança
+```bash
+# Adicionar login de autenticação no arquivo application.properties
+auth.username | auth.password | auth.role
+```
+
+### Utilizar projeto
 ```bash
 # Validar testes integrados
 $ mvn verify
