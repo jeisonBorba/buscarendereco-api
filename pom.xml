@@ -12,7 +12,7 @@
 	<artifactId>buscarendereco-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>buscarendereco-api</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Aplicação Spring Boot para consulta endereço via CEP</description>
 
 	<properties>
 		<java.version>11</java.version>
