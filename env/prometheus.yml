@@ -1,0 +1,12 @@
+global:
+    scrape_interval: 15s
+    evaluation_interval: 15s
+scrape_configs:
+    - job_name: 'buscador-cep-api'
+    scrape_interval: 5s
+    metrics_path: '/api/manage/prometheus'
+    static_configs:
+        - targets: ['127.0.0.1:8080']
+    basic_auth:
+        username: "app-username"
+        password: "app-password"
