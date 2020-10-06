@@ -64,22 +64,25 @@ $ docker-compose up -d
 ### Recursos disponíveis
 ```bash
 # Buscar endereço na API
-http://localhost:8080/api/buscar-endereco/cep
+http://localhost:8080/api/buscar-endereco/cep/{cep}
 
 # Swagger
-http://localhost:3000/api/swagger-ui.html
+http://localhost:8080/api/swagger-ui.html
 
 # Saúde da aplicação
-http://localhost:3000/api/manage/health
+http://localhost:8080/api/manage/health
 
 # Informação da aplicação
-http://localhost:3000/api/manage/info
+http://localhost:8080/api/manage/info
 
 # Métricas da aplicação
-http://localhost:3000/api/manage/metrics
-
+http://localhost:8080/api/manage/metrics/{metric}
 
 # Prometheus
+http://localhost:8080/api/manage/prometheus
+
+
+# Dashboard Prometheus
 http://localhost:9090/targets
 ```
 
