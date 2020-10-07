@@ -35,8 +35,8 @@ public class BuscarEnderecoServiceTest {
 	
 	private EnderecoResponseDTO getEnderecoResponseDTOValido() {
 		return EnderecoResponseDTO.builder()
-				.cep("89058030")
-				.rua("Rua Felippe Wuerges")
+				.cep("89058000")
+				.rua("Rua Francisco Vahldieck")
 				.bairro("Fortaleza Alta")
 				.cidade("Blumenau")
 				.uf("SC")
