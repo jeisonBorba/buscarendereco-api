@@ -49,13 +49,13 @@ auth.username | auth.password | auth.role
 ### Utilizar projeto
 ```bash
 # Validar testes integrados
-$ mvnw.cmd test
+$ ./mvnw.cmd test
 
 # Criar projeto
-$ mvnw.cmd clean package
+$ ./mvnw.cmd clean package -DSkiptest
 
 # Executar projeto
-$ mvnw.cmd spring-boot:run
+$ ./mvnw.cmd spring-boot:run
 
 # Executar Prometheus `Não é obrigatório`
 $ docker-compose up -d
