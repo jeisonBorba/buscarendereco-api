@@ -1,6 +1,6 @@
-<h4 align="center"> 
+<h3 align="center"> 
 	Buscar Endereço API
-</h4>
+</h3>
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -9,7 +9,7 @@
 </p>
 
 ## 💻 Projeto
-Aplicação no padrão Rest API para buscas de endereços através de CEP
+Aplicação para buscar endereços através de CEP utilizando como stack Java com Spring Boot para criação de API no padrão Rest. A aplicação possui uma camada de segurança que utilizado o HTTP Basic para a autenticação, onde deve ser provido um usuário e senha no momento da requisição. Utilizando ferramentas como Logback, Spring Actuator, Micrometer e Prometheus é possível criar logs bem estruturados com backup gerado automaticamente a cada 1hr e endpoints que nos fornecem todos os dados necessários para acompanhar a saúde e métricas da aplicação.
 
 ## :rocket: Tecnologias
 O projeto foi desenvolvido utilizando as seguintes tenclogias:
@@ -49,13 +49,13 @@ auth.username | auth.password | auth.role
 ### Utilizar projeto
 ```bash
 # Validar testes integrados
-$ mvn verify
+$ mvnw.cmd test
 
 # Criar projeto
-$ mvn clean package
+$ mvnw.cmd clean package
 
 # Executar projeto
-$ mvn spring-boot:run
+$ mvnw.cmd spring-boot:run
 
 # Executar Prometheus `Não é obrigatório`
 $ docker-compose up -d
